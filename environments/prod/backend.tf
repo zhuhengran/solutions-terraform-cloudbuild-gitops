@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "mystical-glass-438802-r1-tfstate"
     prefix = "env/prod"
   }
 }
